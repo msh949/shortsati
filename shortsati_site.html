@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شورتاتي - صانع المقاطع القصيرة</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fb;
+            color: #222;
+            direction: rtl;
+        }
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .cta h1 {
+            font-size: 2.5em;
+        }
+        .cta p {
+            font-size: 1.2em;
+        }
+        .upload-section {
+            max-width: 600px;
+            background: white;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="file"], input[type="url"], select, button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        button {
+            background-color: #1e88e5;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #e0e0e0;
+            text-align: center;
+            padding: 15px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>شورتاتي</h1>
+    <p>حوّل فيديوهاتك الطويلة إلى مقاطع قصيرة بشكل تلقائي وسهل</p>
+</header>
+
+<section class="cta">
+    <h1>ابدأ الآن</h1>
+    <p>ارفع فيديو أو أدخل رابط يوتيوب، واختر نوع المحتوى واللهجة</p>
+</section>
+
+<section class="upload-section">
+    <form>
+        <label>ارفع فيديو من جهازك:</label>
+        <input type="file" accept="video/*">
+
+        <label>أو أدخل رابط فيديو يوتيوب:</label>
+        <input type="url" placeholder="https://www.youtube.com/...">
+
+        <label>اختر نوع المحتوى:</label>
+        <select>
+            <option>تحفيزي</option>
+            <option>ديني</option>
+            <option>تعليمي</option>
+            <option>فكاهي</option>
+        </select>
+
+        <label>اختر اللهجة:</label>
+        <select>
+            <option>فصحى</option>
+            <option>سعودي</option>
+            <option>مصري</option>
+            <option>شامي</option>
+            <option>مغربي</option>
+        </select>
+
+        <button type="submit">أنشئ الشورتات</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 شورتاتي - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
